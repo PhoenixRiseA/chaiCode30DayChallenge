@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaiCode day10</title>
+</head>
+<body>
+    <p id="para">This is original content</p>
+    <button id="btn" class="btn">Click me!</button>
+    <button id="btnDb">Double clickme !</button>
+    <img id="image1" src="IMG_20160329_133703532_HDR.jpg" alt="image1" style="width: 300px; height: 200px;">
+    <input type="text" id="input1">
+    <form onsubmit="submitHandler(event)" id="form1">
+        <label for="input">Input Form</label>
+        <input type="text" id="formInput">
+        <select onchange="selectChange(event)" name="selectInput" id="selectInput">
+            <option value="car">Car</option>
+            <option value="plane">plane</option>
+            <option value="train">train</option>
+        </select>
+        <p id="forSelect"></p>
+        <input type="submit" value="Submit">
+
+    </form>
+    <ul id="ulist">
+        <li class="list-item" >List item 1</li>
+        <li class="list-item" >List item 2</li>
+        <li class="list-item" ">List item 3</li>
+        <li class="list-item" >List item 4</li>
+        <li class="list-item" >List item 5</li>
+    </ul>
+    <button id="add">Add</button>
+    <script src="index.js"></script>
+</body>
+</html>
